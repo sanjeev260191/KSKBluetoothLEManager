@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF922B9C189F631E00D70EC1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF922B9B189F631E00D70EC1 /* QuartzCore.framework */; };
+		AFB7A236189B6796007D2A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7A235189B6796007D2A7D /* Foundation.framework */; };
+		AFB7A238189B6796007D2A7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7A237189B6796007D2A7D /* CoreGraphics.framework */; };
+		AFB7A23A189B6796007D2A7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7A239189B6796007D2A7D /* UIKit.framework */; };
+		AFB7A240189B6796007D2A7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB7A23E189B6796007D2A7D /* InfoPlist.strings */; };
+		AFB7A242189B6796007D2A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7A241189B6796007D2A7D /* main.m */; };
+		AFB7A246189B6796007D2A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7A245189B6796007D2A7D /* AppDelegate.m */; };
+		AFB7A248189B6796007D2A7D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB7A247189B6796007D2A7D /* Images.xcassets */; };
+		AFB7A24F189B6796007D2A7D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7A24E189B6796007D2A7D /* XCTest.framework */; };
+		AFB7A250189B6796007D2A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7A235189B6796007D2A7D /* Foundation.framework */; };
+		AFB7A251189B6796007D2A7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7A239189B6796007D2A7D /* UIKit.framework */; };
+		AFB7A259189B6796007D2A7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFB7A257189B6796007D2A7D /* InfoPlist.strings */; };
+		AFB7A25B189B6796007D2A7D /* BluetoothLELocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7A25A189B6796007D2A7D /* BluetoothLELocationTests.m */; };
+		AFB7A26A189B67E2007D2A7D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7A268189B67E2007D2A7D /* MainViewController.m */; };
+		AFB7A26B189B67E2007D2A7D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB7A269189B67E2007D2A7D /* MainViewController.xib */; };
+		AFB7A26D189B67F3007D2A7D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7A26C189B67F3007D2A7D /* CoreBluetooth.framework */; };
+		AFB7A26F189B67F9007D2A7D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB7A26E189B67F9007D2A7D /* CoreLocation.framework */; };
+		AFB7A273189B68E7007D2A7D /* CentralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7A271189B68E7007D2A7D /* CentralViewController.m */; };
+		AFB7A274189B68E7007D2A7D /* CentralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB7A272189B68E7007D2A7D /* CentralViewController.xib */; };
+		AFB7A278189B68FA007D2A7D /* PeripheralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB7A276189B68FA007D2A7D /* PeripheralViewController.m */; };
+		AFB7A279189B68FA007D2A7D /* PeripheralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFB7A277189B68FA007D2A7D /* PeripheralViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFB7A252189B6796007D2A7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFB7A22A189B6796007D2A7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFB7A231189B6796007D2A7D;
+			remoteInfo = BluetoothLELocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF922B9B189F631E00D70EC1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AFB7A232189B6796007D2A7D /* BluetoothLELocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothLELocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB7A235189B6796007D2A7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFB7A237189B6796007D2A7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFB7A239189B6796007D2A7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFB7A23D189B6796007D2A7D /* BluetoothLELocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothLELocation-Info.plist"; sourceTree = "<group>"; };
+		AFB7A23F189B6796007D2A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB7A241189B6796007D2A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFB7A243189B6796007D2A7D /* BluetoothLELocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BluetoothLELocation-Prefix.pch"; sourceTree = "<group>"; };
+		AFB7A244189B6796007D2A7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFB7A245189B6796007D2A7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFB7A247189B6796007D2A7D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFB7A24D189B6796007D2A7D /* BluetoothLELocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothLELocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB7A24E189B6796007D2A7D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFB7A256189B6796007D2A7D /* BluetoothLELocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BluetoothLELocationTests-Info.plist"; sourceTree = "<group>"; };
+		AFB7A258189B6796007D2A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFB7A25A189B6796007D2A7D /* BluetoothLELocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothLELocationTests.m; sourceTree = "<group>"; };
+		AFB7A267189B67E2007D2A7D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		AFB7A268189B67E2007D2A7D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		AFB7A269189B67E2007D2A7D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		AFB7A26C189B67F3007D2A7D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		AFB7A26E189B67F9007D2A7D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AFB7A270189B68E7007D2A7D /* CentralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralViewController.h; sourceTree = "<group>"; };
+		AFB7A271189B68E7007D2A7D /* CentralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralViewController.m; sourceTree = "<group>"; };
+		AFB7A272189B68E7007D2A7D /* CentralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CentralViewController.xib; sourceTree = "<group>"; };
+		AFB7A275189B68FA007D2A7D /* PeripheralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralViewController.h; sourceTree = "<group>"; };
+		AFB7A276189B68FA007D2A7D /* PeripheralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralViewController.m; sourceTree = "<group>"; };
+		AFB7A277189B68FA007D2A7D /* PeripheralViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PeripheralViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB7A22F189B6796007D2A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF922B9C189F631E00D70EC1 /* QuartzCore.framework in Frameworks */,
+				AFB7A26F189B67F9007D2A7D /* CoreLocation.framework in Frameworks */,
+				AFB7A26D189B67F3007D2A7D /* CoreBluetooth.framework in Frameworks */,
+				AFB7A238189B6796007D2A7D /* CoreGraphics.framework in Frameworks */,
+				AFB7A23A189B6796007D2A7D /* UIKit.framework in Frameworks */,
+				AFB7A236189B6796007D2A7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB7A24A189B6796007D2A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB7A24F189B6796007D2A7D /* XCTest.framework in Frameworks */,
+				AFB7A251189B6796007D2A7D /* UIKit.framework in Frameworks */,
+				AFB7A250189B6796007D2A7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB7A229189B6796007D2A7D = {
+			isa = PBXGroup;
+			children = (
+				AFB7A267189B67E2007D2A7D /* MainViewController.h */,
+				AFB7A268189B67E2007D2A7D /* MainViewController.m */,
+				AFB7A269189B67E2007D2A7D /* MainViewController.xib */,
+				AFB7A270189B68E7007D2A7D /* CentralViewController.h */,
+				AFB7A271189B68E7007D2A7D /* CentralViewController.m */,
+				AFB7A272189B68E7007D2A7D /* CentralViewController.xib */,
+				AFB7A275189B68FA007D2A7D /* PeripheralViewController.h */,
+				AFB7A276189B68FA007D2A7D /* PeripheralViewController.m */,
+				AFB7A277189B68FA007D2A7D /* PeripheralViewController.xib */,
+				AFB7A23B189B6796007D2A7D /* BluetoothLELocation */,
+				AFB7A254189B6796007D2A7D /* BluetoothLELocationTests */,
+				AFB7A234189B6796007D2A7D /* Frameworks */,
+				AFB7A233189B6796007D2A7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB7A233189B6796007D2A7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7A232189B6796007D2A7D /* BluetoothLELocation.app */,
+				AFB7A24D189B6796007D2A7D /* BluetoothLELocationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB7A234189B6796007D2A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF922B9B189F631E00D70EC1 /* QuartzCore.framework */,
+				AFB7A26E189B67F9007D2A7D /* CoreLocation.framework */,
+				AFB7A26C189B67F3007D2A7D /* CoreBluetooth.framework */,
+				AFB7A235189B6796007D2A7D /* Foundation.framework */,
+				AFB7A237189B6796007D2A7D /* CoreGraphics.framework */,
+				AFB7A239189B6796007D2A7D /* UIKit.framework */,
+				AFB7A24E189B6796007D2A7D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFB7A23B189B6796007D2A7D /* BluetoothLELocation */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7A244189B6796007D2A7D /* AppDelegate.h */,
+				AFB7A245189B6796007D2A7D /* AppDelegate.m */,
+				AFB7A247189B6796007D2A7D /* Images.xcassets */,
+				AFB7A23C189B6796007D2A7D /* Supporting Files */,
+			);
+			path = BluetoothLELocation;
+			sourceTree = "<group>";
+		};
+		AFB7A23C189B6796007D2A7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7A23D189B6796007D2A7D /* BluetoothLELocation-Info.plist */,
+				AFB7A23E189B6796007D2A7D /* InfoPlist.strings */,
+				AFB7A241189B6796007D2A7D /* main.m */,
+				AFB7A243189B6796007D2A7D /* BluetoothLELocation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFB7A254189B6796007D2A7D /* BluetoothLELocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7A25A189B6796007D2A7D /* BluetoothLELocationTests.m */,
+				AFB7A255189B6796007D2A7D /* Supporting Files */,
+			);
+			path = BluetoothLELocationTests;
+			sourceTree = "<group>";
+		};
+		AFB7A255189B6796007D2A7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFB7A256189B6796007D2A7D /* BluetoothLELocationTests-Info.plist */,
+				AFB7A257189B6796007D2A7D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB7A231189B6796007D2A7D /* BluetoothLELocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB7A25E189B6796007D2A7D /* Build configuration list for PBXNativeTarget "BluetoothLELocation" */;
+			buildPhases = (
+				AFB7A22E189B6796007D2A7D /* Sources */,
+				AFB7A22F189B6796007D2A7D /* Frameworks */,
+				AFB7A230189B6796007D2A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BluetoothLELocation;
+			productName = BluetoothLELocation;
+			productReference = AFB7A232189B6796007D2A7D /* BluetoothLELocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFB7A24C189B6796007D2A7D /* BluetoothLELocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB7A261189B6796007D2A7D /* Build configuration list for PBXNativeTarget "BluetoothLELocationTests" */;
+			buildPhases = (
+				AFB7A249189B6796007D2A7D /* Sources */,
+				AFB7A24A189B6796007D2A7D /* Frameworks */,
+				AFB7A24B189B6796007D2A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFB7A253189B6796007D2A7D /* PBXTargetDependency */,
+			);
+			name = BluetoothLELocationTests;
+			productName = BluetoothLELocationTests;
+			productReference = AFB7A24D189B6796007D2A7D /* BluetoothLELocationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB7A22A189B6796007D2A7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Sanjeeva;
+				TargetAttributes = {
+					AFB7A24C189B6796007D2A7D = {
+						TestTargetID = AFB7A231189B6796007D2A7D;
+					};
+				};
+			};
+			buildConfigurationList = AFB7A22D189B6796007D2A7D /* Build configuration list for PBXProject "BluetoothLELocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFB7A229189B6796007D2A7D;
+			productRefGroup = AFB7A233189B6796007D2A7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB7A231189B6796007D2A7D /* BluetoothLELocation */,
+				AFB7A24C189B6796007D2A7D /* BluetoothLELocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB7A230189B6796007D2A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB7A240189B6796007D2A7D /* InfoPlist.strings in Resources */,
+				AFB7A26B189B67E2007D2A7D /* MainViewController.xib in Resources */,
+				AFB7A274189B68E7007D2A7D /* CentralViewController.xib in Resources */,
+				AFB7A248189B6796007D2A7D /* Images.xcassets in Resources */,
+				AFB7A279189B68FA007D2A7D /* PeripheralViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB7A24B189B6796007D2A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB7A259189B6796007D2A7D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB7A22E189B6796007D2A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB7A246189B6796007D2A7D /* AppDelegate.m in Sources */,
+				AFB7A26A189B67E2007D2A7D /* MainViewController.m in Sources */,
+				AFB7A273189B68E7007D2A7D /* CentralViewController.m in Sources */,
+				AFB7A278189B68FA007D2A7D /* PeripheralViewController.m in Sources */,
+				AFB7A242189B6796007D2A7D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFB7A249189B6796007D2A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB7A25B189B6796007D2A7D /* BluetoothLELocationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFB7A253189B6796007D2A7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFB7A231189B6796007D2A7D /* BluetoothLELocation */;
+			targetProxy = AFB7A252189B6796007D2A7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFB7A23E189B6796007D2A7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB7A23F189B6796007D2A7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFB7A257189B6796007D2A7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB7A258189B6796007D2A7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB7A25C189B6796007D2A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFB7A25D189B6796007D2A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB7A25F189B6796007D2A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothLELocation/BluetoothLELocation-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothLELocation/BluetoothLELocation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "874C3CC5-6872-4860-BF96-72CADA398A70";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFB7A260189B6796007D2A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothLELocation/BluetoothLELocation-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothLELocation/BluetoothLELocation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "874C3CC5-6872-4860-BF96-72CADA398A70";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFB7A262189B6796007D2A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BluetoothLELocation.app/BluetoothLELocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothLELocation/BluetoothLELocation-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BluetoothLELocationTests/BluetoothLELocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AFB7A263189B6796007D2A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BluetoothLELocation.app/BluetoothLELocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BluetoothLELocation/BluetoothLELocation-Prefix.pch";
+				INFOPLIST_FILE = "BluetoothLELocationTests/BluetoothLELocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB7A22D189B6796007D2A7D /* Build configuration list for PBXProject "BluetoothLELocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB7A25C189B6796007D2A7D /* Debug */,
+				AFB7A25D189B6796007D2A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB7A25E189B6796007D2A7D /* Build configuration list for PBXNativeTarget "BluetoothLELocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB7A25F189B6796007D2A7D /* Debug */,
+				AFB7A260189B6796007D2A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB7A261189B6796007D2A7D /* Build configuration list for PBXNativeTarget "BluetoothLELocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB7A262189B6796007D2A7D /* Debug */,
+				AFB7A263189B6796007D2A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFB7A22A189B6796007D2A7D /* Project object */;
+}
